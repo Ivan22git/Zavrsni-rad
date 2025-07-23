@@ -1,11 +1,10 @@
-# -*- coding: utf-8 -*-
 """
 SUSTAV ZA ŠIFRIRANJE - ENKRIPTIRANJE
 Opis: Implementacija Caesar, Vigenère i kolumnarne transpozicije za enkriptiranje
 """
 
 # Definiranje hrvatskog alfabeta s dodatnim znakovima
-HR_ALFABET = "ABCČĆDĐEFGHIJKLMNOPRSŠTUVZŽ12345&"
+HR_ALFABET = "ABCČĆDĐEFGHIJKLMNOPRSŠTUVZŽ"
 
 
 def caesar_enkript(text, shift, alphabet=HR_ALFABET):
